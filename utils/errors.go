@@ -3,7 +3,7 @@ package utils
 import (
 	"encoding/json"
 
-	"github.com/harshmangalam/medusa-sdk-golang/response"
+	"github.com/vincent-vade/medusa-sdk-golang/response"
 )
 
 func ParseErrors(body []byte) (*response.Errors, error) {
