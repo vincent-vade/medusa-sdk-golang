@@ -7,7 +7,7 @@ import (
 type ProductVariant struct {
 	Title                  string         `json:"title"`
 	ProductId              string         `json:"product_id"`
-	InventoryQuantity      string         `json:"inventory_quantity"`
+	InventoryQuantity      int         `json:"inventory_quantity"`
 	Id                     string         `json:"id,omitempty"`
 	Product                *Product       `json:"product,omitempty"`
 	Prices                 []any          `json:"prices,omitempty"`
