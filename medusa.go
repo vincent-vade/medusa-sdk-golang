@@ -1,4 +1,4 @@
-package medusasdkgolang
+package medusa
 
 import "net/http"
 
